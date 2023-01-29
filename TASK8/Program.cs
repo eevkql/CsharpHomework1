@@ -4,16 +4,16 @@
 Console.Clear();
 Console.WriteLine("Enter number: ");
 int N = int.Parse(Console.ReadLine());
-int current = N--;
-while (current > 1)
+int current = 1;
+while (current <= N)
 {
 if (current % 2 == 0)
 {
     Console.WriteLine(current);
-    current--;
+    current++;
 }
 else
 {
-    current--;
+    current++;
 }
 }
