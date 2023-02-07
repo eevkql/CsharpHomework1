@@ -1,0 +1,15 @@
+C:\Users\repul\OneDrive\Рабочий стол\C# Homework\TASK29\bin\Debug\net6.0\TASK29.exe
+C:\Users\repul\OneDrive\Рабочий стол\C# Homework\TASK29\bin\Debug\net6.0\TASK29.deps.json
+C:\Users\repul\OneDrive\Рабочий стол\C# Homework\TASK29\bin\Debug\net6.0\TASK29.runtimeconfig.json
+C:\Users\repul\OneDrive\Рабочий стол\C# Homework\TASK29\bin\Debug\net6.0\TASK29.dll
+C:\Users\repul\OneDrive\Рабочий стол\C# Homework\TASK29\bin\Debug\net6.0\TASK29.pdb
+C:\Users\repul\OneDrive\Рабочий стол\C# Homework\TASK29\obj\Debug\net6.0\TASK29.csproj.AssemblyReference.cache
+C:\Users\repul\OneDrive\Рабочий стол\C# Homework\TASK29\obj\Debug\net6.0\TASK29.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\repul\OneDrive\Рабочий стол\C# Homework\TASK29\obj\Debug\net6.0\TASK29.AssemblyInfoInputs.cache
+C:\Users\repul\OneDrive\Рабочий стол\C# Homework\TASK29\obj\Debug\net6.0\TASK29.AssemblyInfo.cs
+C:\Users\repul\OneDrive\Рабочий стол\C# Homework\TASK29\obj\Debug\net6.0\TASK29.csproj.CoreCompileInputs.cache
+C:\Users\repul\OneDrive\Рабочий стол\C# Homework\TASK29\obj\Debug\net6.0\TASK29.dll
+C:\Users\repul\OneDrive\Рабочий стол\C# Homework\TASK29\obj\Debug\net6.0\refint\TASK29.dll
+C:\Users\repul\OneDrive\Рабочий стол\C# Homework\TASK29\obj\Debug\net6.0\TASK29.pdb
+C:\Users\repul\OneDrive\Рабочий стол\C# Homework\TASK29\obj\Debug\net6.0\TASK29.genruntimeconfig.cache
+C:\Users\repul\OneDrive\Рабочий стол\C# Homework\TASK29\obj\Debug\net6.0\ref\TASK29.dll
