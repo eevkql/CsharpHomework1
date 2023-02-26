@@ -16,7 +16,7 @@ int columns = 4;
 int[,] array = GetArray(rows, columns);
 PrintArray(array);
 SortArray(array);
-// PrintArray(array);
+PrintArray(array);
 
 // Методы
 
@@ -45,38 +45,25 @@ void PrintArray(int[,] inArray)
     }
 }
 
-// void SortArray(int[,] arr)   //I-ый метод сортировки двумерного массива.
-// {
-//     Console.WriteLine();
-//     for (int i = 0; i < arr.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < arr.GetLength(0); j++)
-//         {
-//             for (int k = 0; k < arr.GetLength(1) - 1; k++)
-//             {
-//                 if (arr[i, k] < arr[i, k + 1])
-//                 {
-//                     int temp = arr[i, k + 1];
-//                     arr[i, k + 1] = arr[i, k];
-//                     arr[i, k] = temp;
-//                 }
-//             }
-//         }
-//     }
-// }
-
-
-// void SortArray(int[,] arr)  //II-ой метод сортировки массива НЕ РАБОТАЕТ, ДОДЕЛАТЬ.
-// {
-//     Console.WriteLine();
-//     int[] rowarr = new int[arr.GetLength(0)];
-//     for (int i = 0; i < arr.GetLength(1); i++)
-//     {
-//         for (int j = 0; j < arr.GetLength(0); j++)
-//         {
-//             Array.Sort(rowarr);
-//             Array.Reverse(rowarr);
-//             Console.Write(rowarr[i]);
-//         }
-//     }
-// }
+//I-ый метод сортировки двумерного массива. UPD. Пробовал встроенный метод 
+// сортировки Array.Sort - работает только с одномерными массивами. Думаю можно доработать, 
+// чтобы выводил в терминал (внешне) как двумерный, но не вижу смысла...
+void SortArray(int[,] arr)   
+{
+    Console.WriteLine();
+    for (int i = 0; i < arr.GetLength(0); i++)
+    {
+        for (int j = 0; j < arr.GetLength(0); j++)
+        {
+            for (int k = 0; k < arr.GetLength(1) - 1; k++)
+            {
+                if (arr[i, k] < arr[i, k + 1])
+                {
+                    int temp = arr[i, k + 1];
+                    arr[i, k + 1] = arr[i, k];
+                    arr[i, k] = temp;
+                }
+            }
+        }
+    }
+}
